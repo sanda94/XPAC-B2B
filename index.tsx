@@ -487,7 +487,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4 border-slate-200">
-        <p className="text-slate-500 font-medium text-sm">© 2024 XPAC Technology. All Rights Reserved.</p>
+        <p className="text-slate-500 font-medium text-sm">© 2026 XPAC Technology. All Rights Reserved.</p>
         <div className="flex gap-8 text-sm font-medium text-slate-500">
           <a href="#" className="hover:text-emerald-600">Privacy Policy</a>
           <a href="#" className="hover:text-emerald-600">Terms & Conditions</a>
