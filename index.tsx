@@ -80,7 +80,7 @@ const TEAM: TeamMember[] = [
   { name: 'Sanda', role: 'Chief Executive Officer', image: '/images/sanda.jpeg' },
   { name: 'Rachel', role: 'Head of Operations', image: '/images/james.jpg' },
   { name: 'Willie', role: 'Lead Product Designer', image: '/images/sir.jpg', isHead: true },
-  { name: 'Daniyal', role: 'Supply Chain Strategist', image: '/images/maria.jpg' },
+  { name: 'Daniel', role: 'Supply Chain Strategist', image: '/images/maria.jpg' },
   { name: 'Kay', role: 'Sustainability Engineer', image: '/images/kayla.jpg' }
 ];
 
