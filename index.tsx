@@ -107,8 +107,8 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 w-full p-4 md:p-6 transition-all duration-300">
       <nav className={`mx-auto max-w-7xl rounded-full border shadow-lg px-6 py-3 flex items-center justify-between transition-all duration-500 ${isScrolled ? 'bg-white/95 border-emerald-100 shadow-emerald-500/5 py-2' : 'bg-white/80 border-white/20 shadow-slate-200/50 backdrop-blur-xl'}`}>
         <a href="#" className="flex items-center gap-2 group">
-          <img src="/images/Xpac1.png" alt="XPAC Technology Logo" className="w-10 h-10 rounded-lg" />
-          <span className="text-xl font-semibold tracking-tight text-slate-900">XPAC Technology</span>
+          <img src="/images/Xpac1.png" alt="XPAC Technologies Logo" className="w-10 h-10 rounded-lg" />
+          <span className="text-xl font-semibold tracking-tight text-slate-900">XPAC Technologies</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -142,7 +142,7 @@ const Hero = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl lg:text-7xl font-semibold tracking-tighter leading-[1.1] text-slate-900">
-            XPAC Technology <br />
+            XPAC Technologies <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-teal-500 from-emerald-600">We Are Packaging Company</span> intelligence.
           </h1>
           <p className="text-lg md:text-xl text-slate-500 font-medium max-w-lg leading-relaxed">
@@ -431,8 +431,8 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <div className="space-y-6">
           <a href="#" className="flex items-center gap-2">
-            <img src="/images/Xpac1.png" alt="XPAC Technology Logo" className="w-10 h-10 rounded-lg" />
-            <span className="text-xl font-semibold tracking-tight text-slate-900">XPAC Technology</span>
+            <img src="/images/Xpac1.png" alt="XPAC Technologies Logo" className="w-10 h-10 rounded-lg" />
+            <span className="text-xl font-semibold tracking-tight text-slate-900">XPAC Technologies</span>
           </a>
           <p className="text-slate-500 font-medium leading-relaxed">
             Your destination for secure, smart, and confident logistics. We are committed to providing exceptional packaging in a modern industrial environment.
@@ -487,7 +487,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4 border-slate-200">
-        <p className="text-slate-500 font-medium text-sm">© 2026 XPAC Technology. All Rights Reserved.</p>
+        <p className="text-slate-500 font-medium text-sm">© 2026 XPAC Technologies. All Rights Reserved.</p>
         <div className="flex gap-8 text-sm font-medium text-slate-500">
           <a href="#" className="hover:text-emerald-600">Privacy Policy</a>
           <a href="#" className="hover:text-emerald-600">Terms & Conditions</a>
@@ -526,7 +526,7 @@ const AIAssistant = () => {
         model: 'gemini-3-flash-preview',
         contents: userMsg,
         config: {
-          systemInstruction: `You are a helpful and professional AI assistant for "XPAC Technology". 
+          systemInstruction: `You are a helpful and professional AI assistant for "XPAC Technologies". 
           Company Details:
           - Services: Industrial Packaging, Smart Tracking (Traxx Smart), Eco-Friendly Solutions, Custom Branding & Design, E-commerce Logistics, Protective Engineering.
           - CEO: Sanda.
