@@ -8,6 +8,7 @@ import {
   Bot, Loader2, CalendarClock
 } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // --- Types ---
 interface Service {
@@ -622,6 +623,7 @@ const App = () => {
       <Appointment />
       <Footer />
       <AIAssistant />
+      <SpeedInsights />
     </div>
   );
 };
